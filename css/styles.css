@@ -1,0 +1,82 @@
+/* Algemene opmaak */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header .header-content h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header .header-content p {
+    font-size: 1.2em;
+    margin: 5px 0 0;
+}
+
+.container {
+    margin: 20px;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+.intro {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.diensten ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.diensten li {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.contact a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004aad;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.contact a:hover {
+    background-color: #003a8c;
+}
+
+.testimonial blockquote {
+    background-color: #ffffff;
+    border-left: 5px solid #004aad;
+    padding: 10px;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+footer {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
